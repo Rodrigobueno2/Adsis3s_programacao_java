@@ -10,10 +10,18 @@ public class AppLeitura {
 		
 		String nome;
 		
+		int idade;
+		
 		System.out.println("Digite seu nome: ");
 		
 		nome = ler.nextLine();
 		
-		System.out.println("Olá, "+nome+", tudo bem? ");
+		System.out.println("Digite sua idade: ");
+		
+		idade = ler.nextInt();
+		
+		//System.out.println("Olá, "+nome+", tudo bem? ");
+		System.out.println("Nome: "+nome);
+		System.out.println("Idade: "+idade);
 	}
 }

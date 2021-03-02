@@ -8,7 +8,7 @@ public class AppStrings {
     	
 		//Scanner ler = new Scanner(System.in);
 		
-		String frase = "  olha que legal  ";
+		String frase = "    olha que legal    ";
 		String resultante = frase.trim().toUpperCase();
 		
 		System.out.println("String Original: "+frase);
